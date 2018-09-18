@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:ejb="http://ejb.convenios.sicredi.com.br/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <ejb:detalharCodigoBarrasConvenio>
+            <inDetalharCodigoBarrasConvenio>
+                <canal>#(env.canal)</canal>
+                <codigoBarras>#(codigoBarras)</codigoBarras>
+                <tipoEntrada>#(env.tipoEntrada)</tipoEntrada>
+                <cooperativaLogada>#(env.cooperativaLogada)</cooperativaLogada>
+            </inDetalharCodigoBarrasConvenio>
+        </ejb:detalharCodigoBarrasConvenio>
+    </soapenv:Body>
+</soapenv:Envelope>
+  

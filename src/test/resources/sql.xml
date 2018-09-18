@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<map>
+    <sql>
+        <chave>removeDataFromTable</chave>
+        <valor>
+            DELETE
+            FROM TABLE
+        </valor>
+    </sql>
+
+    <sql>
+        <chave>buscaValoresNaTabela</chave>
+        <valor>
+            SELECT *
+                FROM TABLE
+                WHERE COLUMN = '?'
+                AND COLUMN02 = '?'
+
+        </valor>
+    </sql>
+
+</map>

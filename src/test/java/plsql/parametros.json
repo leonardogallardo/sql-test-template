@@ -1,0 +1,12 @@
+{
+  "consulta_saldo_ccor": {
+    "pi_cod_agencia":         [ "VARCHAR",  "ENTRADA", "0726"     ],
+    "pi_num_conta":           [ "VARCHAR",  "ENTRADA", "16854-4"  ],
+    "po_vlr_saldo_disp":      [ "NUMBER",   "SAIDA"               ],
+    "po_vlr_saldo_bloq":      [ "NUMBER",   "SAIDA"               ],
+    "po_vlr_saldo_bloq_jud":  [ "NUMBER",   "SAIDA"               ],
+    "po_cod_status":          [ "VARCHAR",  "SAIDA"               ],
+    "pi_lbanco":              [ "BIT",      "ENTRADA", "false"    ],
+    "pi_cod_sist_orig":       [ "VARCHAR",  "ENTRADA"             ]
+  }
+}
